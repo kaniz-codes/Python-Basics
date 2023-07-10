@@ -1,0 +1,8 @@
+# square of given numbers
+def square (x):
+    return x*x
+num= [1,2,3,]
+
+result = list(map(square,num))
+
+print(result)
