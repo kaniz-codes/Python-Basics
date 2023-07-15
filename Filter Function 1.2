@@ -1,0 +1,12 @@
+#User input & Find even numbers by filter
+
+a = int(input("Enter A = "))
+b = int(input("Enter B = "))
+c = int(input("Enter C = "))
+d = int(input("Enter D = "))
+
+num = [ a,b,c,d]
+
+result = list(filter(lambda x: x%2 == 0, num))
+
+print("Even numbers = ", result)
