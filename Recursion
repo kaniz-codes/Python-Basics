@@ -1,0 +1,13 @@
+# factorial calculation
+
+def fact(n):
+    if n == 1:
+        return 1
+    else:
+        return n* fact(n-1)
+
+n = int(input("Enter your number = "))
+
+fact(n)
+
+print("Anser is ",fact(n))
