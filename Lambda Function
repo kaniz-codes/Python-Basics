@@ -1,0 +1,8 @@
+# Calculate Function
+def calculate (a,b) :
+    return a*a + 2*a*b + b*b
+
+a = float(input("Enter A = "))
+b = float(input("Enter A = "))
+
+print(calculate(a,b))
