@@ -1,0 +1,5 @@
+from math import pow
+a= int(input("Enter value of A= "))
+b= int(input("Enter value of B= "))
+X= pow(a,a)+2*a*b+pow(b,b)
+print("Result is= ",X)
