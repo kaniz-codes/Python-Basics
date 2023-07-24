@@ -1,0 +1,8 @@
+#print elements in subjects
+
+subjects = ["A", "B", "C","D"]
+
+print(subjects)
+print(subjects[0])
+print(subjects[1:])
+print(subjects[-2])
