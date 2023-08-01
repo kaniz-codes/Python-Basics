@@ -1,0 +1,4 @@
+#Count the number of element from the subject is decleared
+subjects = [100,28,4,6,4]
+pos= subjects.count(4)
+print(pos)
