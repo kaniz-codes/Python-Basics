@@ -1,0 +1,6 @@
+from _collections import deque
+
+bank = deque (["Kaniz", "Fatema","Alisha","Sultana"])
+print("list of bank " , bank)
+bank.popleft()
+print(bank)
