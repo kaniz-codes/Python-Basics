@@ -1,0 +1,4 @@
+random= int(input("Enter number= "))
+
+num= list(range(random))
+print(num)
