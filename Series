@@ -1,0 +1,11 @@
+# Sum of series
+ran= int(input("Enter Starting number= "))
+ran1= int(input("Enter finishing number= "))
+diff= int(input("Enter difference between number= "))
+sum = 0
+num= list(range(ran, ran1, diff))
+print(num)
+for x in range(ran, ran1, diff):
+    sum = sum + x
+
+print("The sum of numbers in the series is " ,sum)
