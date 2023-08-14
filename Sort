@@ -1,0 +1,7 @@
+word = input("Enter a word: ")
+
+# Convert the word to lowercase and rearrange the letters in alphabetical order
+sorted_word = ''.join(sorted(word.lower()))
+
+print("Original word:", word)
+print("Rearranged word:", sorted_word)
