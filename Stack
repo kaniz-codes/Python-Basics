@@ -1,0 +1,9 @@
+books = []
+books.append("Learn C with Kaniz")
+books.append("Learn C++ with Kaniz")
+books.append("Learn Java with Kaniz")
+
+print(books)
+
+books.pop()
+print("Now the top book is: ", books [-1])
