@@ -1,0 +1,10 @@
+numbers_str = input("Enter a series of numbers separated by spaces: ")
+numbers_list = numbers_str.split()  # Split the input string into a list of numbers
+
+# Convert the list of strings to a list of integers
+numbers = [int(num) for num in numbers_list]
+
+# Sort the numbers in ascending order
+sorted_numbers = sorted(numbers)
+
+print("Sorted numbers:", sorted_numbers)
