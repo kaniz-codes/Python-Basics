@@ -1,0 +1,7 @@
+a = float(input("Enter a number, A = "))
+b = float(input("Enter a number, B = "))
+
+a,b = b,a
+
+print("A = ", a)
+print("B = ", b)
