@@ -1,0 +1,14 @@
+# number grade
+num= float(input("Enter your number= "))
+if num>=80:
+    print("You have got A+")
+elif num>=70:
+    print("You have got A")
+elif num>=60:
+    print("You have got A-")
+elif num>=50:
+    print("You have got B")
+elif num>=40:
+    print("You have got C")
+else:
+    print("You have failed")
