@@ -1,0 +1,9 @@
+students = (
+
+   "Kaniz Fatema",
+   "Aysha Akter",
+   "Alisha Sultana",
+
+)
+
+print(students[0])
