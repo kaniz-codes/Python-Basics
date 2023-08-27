@@ -1,0 +1,7 @@
+#print continuous numbers
+
+i= float(input("Enter your starting number= "))
+e= float(input("Enter your ending number= "))
+
+while i<= e:
+    print(i)
