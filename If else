@@ -1,0 +1,12 @@
+# Prompt the user to enter a single character
+char = input("Enter a single character: ")
+
+# Ensure that the input is a single character
+if len(char) != 1:
+    print("Please enter a single character.")
+else:
+    # Check if the character is a vowel or a consonant
+    if char.lower() in 'aeiou':
+        print(f"{char} is a vowel.")
+    else:
+        print(f"{char} is a consonant.")
