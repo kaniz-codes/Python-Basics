@@ -1,0 +1,3 @@
+line = "My name is Kaniz"
+name = line.split()
+print(name)
