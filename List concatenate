@@ -1,0 +1,7 @@
+#List concatenate
+mylist1 = [1, 2, 3]
+mylist2 = ['a', 'b', 'c']
+mylist3 = ['Kaniz', 'Fatema']
+
+mylist123 = mylist1 + mylist2 + mylist3
+print(mylist123)
